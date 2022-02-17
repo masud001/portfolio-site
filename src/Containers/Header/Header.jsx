@@ -17,12 +17,12 @@ const Header = () => {
 					<button type='button'>Get Started</button>
 				</div>
 				<div className='mdr__header-content__people'>
-					<img src={people} alt={people} />
+					<img src={people} alt='people' />
 					<p>1,600 people requested access a visit in last 24 hours</p>
 				</div>
 			</div>
 			<div className='mdr__header-image'>
-				<img src={ai} alt={ai} />
+				<img src={ai} alt='ai' />
 			</div>
 		</div>
 	);
