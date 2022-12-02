@@ -1,0 +1,129 @@
+.mdr__footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-footer);
+}
+.mdr__footer-heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.mdr__footer-heading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+.mdr__footer-button{
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10rem;
+}
+.mdr__footer-button p{
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    word-spacing: 2px;
+}
+
+.mdr__footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+.mdr__footer-links div{
+    width: 250px;
+    margin: 1rem;
+}
+.mdr__footer-links_logo{
+    display: flex;
+    flex-direction: column;
+}
+.mdr__footer-links_logo img{
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+.mdr__footer-links_logo p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+.mdr__footer-links_area{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.mdr__footer-links_area h4{
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+.mdr__footer-links_area p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+.mdr__footer-copyright{
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.mdr__footer-copyright p{
+    font-family: var(--font-family);
+        font-size: 12px;
+        line-height: 14px;
+    
+        color: #FFFFFF;
+}
+
+@media screen and (max-width:850px) {
+.mdr__footer-heading h1 {
+
+        font-size: 44px;
+        line-height: 50px;
+
+    }
+}
+@media screen and (max-width:550px) {
+.mdr__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+}
+.mdr__footer-links div{
+    margin: 1rem 0;
+}
+.mdr__footer-button p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+
+}
+@media screen and (max-width:550px) {
+    .mdr__footer-heading h1 {
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
