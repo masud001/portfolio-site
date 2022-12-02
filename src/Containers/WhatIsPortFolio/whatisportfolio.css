@@ -1,4 +1,4 @@
-.mdr__whatisprotfolio {
+.mdr__whatIsPortfolio {
 	display: flex;
 	flex-direction: column;
 	padding: 2rem;
@@ -46,35 +46,35 @@
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.mdr__whatportfolio-feature {
+.mdr__whatIsPortfolio-feature {
 	display: flex;
 }
 
 /* Customizing feature component as per needs */
-.mdr__whatportfolio-feature .mdr__features-container__feature {
+.mdr__whatIsPortfolio-feature .mdr__features-container__feature {
 	margin: 0;
 }
 
 /* Customizing feature component as per needs */
-.mdr__whatportfolio-feature .mdr__features-container_feature-text {
+.mdr__whatIsPortfolio-feature .mdr__features-container_feature-text {
 	max-width: 700px;
 }
 
-.mdr__whatportfolio-heading {
+.mdr__whatIsPortfolio-heading {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin: 4rem 0 2rem;
 }
 
-.mdr__whatportfolio-heading h1 {
+.mdr__whatIsPortfolio-heading h1 {
 	font-size: 34px;
 	line-height: 45px;
 	font-weight: 800;
 	font-family: var(--font-family);
 	max-width: 510px;
 }
-.mdr__whatportfolio-heading p {
+.mdr__whatIsPortfolio-heading p {
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 16px;
@@ -82,7 +82,7 @@
 	color: var(--color-subtext);
 	cursor: pointer;
 }
-.mdr__whatportfolio-container {
+.mdr__whatIsPortfolio-container {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -90,7 +90,7 @@
 }
 
 /* Customizing feature component as per needs */
-.mdr__whatportfolio-container .mdr__features-container__feature {
+.mdr__whatIsPortfolio-container .mdr__features-container__feature {
 	flex: 1;
 	margin: 1rem;
 	min-width: 210px;
@@ -99,32 +99,32 @@
 }
 
 /* Customizing feature component as per needs */
-.mdr__whatportfolio-container .mdr__features-container_feature-text {
+.mdr__whatIsPortfolio-container .mdr__features-container_feature-text {
 	margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 850px) {
-	.mdr__whatportfolio-heading {
+	.mdr__whatIsPortfolio-heading {
 		flex-direction: column;
 		align-items: flex-start;
 		margin-bottom: 0rem;
 	}
 
-	.mdr__whatportfolio-heading p {
+	.mdr__whatIsPortfolio-heading p {
 		margin-top: 1rem;
 	}
 }
 
 @media screen and (max-width: 650px) {
 	/* Customizing feature component as per needs */
-	.mdr__whatportfolio-feature .mdr__features-container__feature {
+	.mdr__whatIsPortfolio-feature .mdr__features-container__feature {
 		flex-direction: column;
 	}
 	/* Customizing feature component as per needs */
-	.mdr__whatportfolio-feature .mdr__features-container_feature-text {
+	.mdr__whatIsPortfolio-feature .mdr__features-container_feature-text {
 		margin-top: 0.5rem;
 	}
-	.mdr__whatportfolio-heading h1 {
+	.mdr__whatIsPortfolio-heading h1 {
 		font-size: 28px;
 		line-height: 40px;
 	}
@@ -132,7 +132,7 @@
 
 @media screen and (max-width: 350px) {
 	/* Customizing feature component as per needs */
-	.mdr__whatportfolio-container .mdr__features-container__feature {
+	.mdr__whatIsPortfolio-container .mdr__features-container__feature {
 		margin: 1rem 0;
 		min-width: 100%;
 	}
